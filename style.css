@@ -10,6 +10,7 @@ body {
 	height: 100%;
 	background-image: url("https://i.pinimg.com/736x/d6/21/22/d62122573fa8f7622af9a2ef0233fcdd--cellphone-wallpaper-wallpaper-iphone.jpg");
 	background-attachment: fixed;
+	background-repeat: repeat-x;
 }
 .navbar {
 	width: 100%;
