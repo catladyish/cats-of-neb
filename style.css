@@ -38,7 +38,6 @@ body {
 	margin: auto;
 	width: 65%;
 	min-height: 100vh;
-	background-color: white;
 	height: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -47,6 +46,7 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 	text-align: center;
+	background-color: white;
 }
 .footer {
 	width: 100%;
@@ -66,6 +66,25 @@ body {
 .home-img:hover {
 	animation-name: fade-in;
 	animation-duration: 2s;
+}
+.img-block-container {
+	width: 85%;
+	height: 20em;
+	border: 5px double #b3b3ff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.img-block-container img {
+	width: 33.333%;
+	height: 10em;
+}
+.img-block-container img:hover {
+	animation-name: fade-in;
+	animation-duration: 2s;
+}
+.cat-info {
+	display: none;
 }
 #img-left {
 	float: left;
