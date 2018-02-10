@@ -8,9 +8,9 @@ body {
 .background {
 	width: 100%;
 	height: 100%;
-	background-image: url("https://i.pinimg.com/736x/d6/21/22/d62122573fa8f7622af9a2ef0233fcdd--cellphone-wallpaper-wallpaper-iphone.jpg");
+	background-image: url("https://static.pexels.com/photos/762841/pexels-photo-762841.jpeg");
 	background-attachment: fixed;
-	background-repeat: repeat-x;
+	background-size: cover;
 }
 .navbar {
 	width: 100%;
