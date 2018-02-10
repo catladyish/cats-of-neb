@@ -1,0 +1,122 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: "Ubuntu Condensed";
+}
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url("https://i.pinimg.com/736x/d6/21/22/d62122573fa8f7622af9a2ef0233fcdd--cellphone-wallpaper-wallpaper-iphone.jpg");
+	background-attachment: fixed;
+}
+.navbar {
+	width: 100%;
+	background-color: #b3b3ff;
+	height: auto;
+	position: fixed;
+	top: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	justify-content: space-around;
+}
+.navbar > a {
+	text-decoration: none;
+	color: #d9d9d9;
+	font-size: 19px;
+	padding-left: 10px;
+}
+.navbar > a:hover {
+	color: white;
+}
+.content {
+	margin: auto;
+	width: 65%;
+	min-height: 100vh;
+	background-color: white;
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+.footer {
+	width: 100%;
+	background-color: #b3b3ff;
+	height: 35px;
+	position: fixed;
+	bottom: 0px;
+}
+.home-img {
+	width: 15em;
+	height: 15em;
+	border-radius: 10px 30px 10px;
+	border: 5px double #b3b3ff;
+	margin: 15px;
+	margin-bottom: 25px;
+}
+.home-img:hover {
+	animation-name: fade-in;
+	animation-duration: 2s;
+}
+#img-left {
+	float: left;
+}
+#img-right {
+	float: right;
+}
+
+@media only screen and (max-width: 620px) {
+	.home-img {
+		display: block;
+		margin: auto;
+		width: 75%;
+		height: auto;
+	}
+	#img-left {
+		float: none;
+	}
+	#img-right {
+		float: none;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.panel-img {
+		width: 75%;
+		height: auto;
+	}
+}
+.img-text-section {
+	clear: both;
+	text-align: center;
+}
+@keyframes fade-in {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.panel-img {
+	max-width: 10em;
+	max-height: 10em;
+	border-radius: 10px 30px 10px;
+	border: 5px double #b3b3ff;
+	margin: 15px;
+	margin-bottom: 25px;
+	float: left;
+	margin: 10px;
+	clear: both;
+}
+.cat-panel {
+	text-align: left;
+	min-height: 12em;
+}
