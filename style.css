@@ -136,6 +136,10 @@ body {
 	margin: 10px;
 	clear: both;
 }
+.panel-img:hover {
+	animation-name: fade-in;
+	animation-duration: 2s;
+}
 .cat-panel {
 	text-align: left;
 	min-height: 12em;
